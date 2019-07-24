@@ -9,6 +9,7 @@ namespace Rover
     {
         public Location CurrentLocation { get; set; }
         public SurfaceArea TotalArea { get; set; }
+        public Compass compass { get; set; }
         public Map(Location currentLocation, SurfaceArea totalArea)
         {
             CurrentLocation = currentLocation;
