@@ -7,12 +7,12 @@ namespace Rover
 {
     public class SurfaceArea
     {
-        Location UpperRightCoordinates;
-        Location LowerLeftCoordinates;
-        public SurfaceArea(Location upperReftCoordinates)
+        public Location UpperRightCoordinates { set; get; }
+        public Location LowerLeftCoordinates { set; get; }
+        public SurfaceArea(Location upperRightCoordinates)
         {
             LowerLeftCoordinates = new Location(0, 0);
-            UpperRightCoordinates = upperReftCoordinates;
+            UpperRightCoordinates = upperRightCoordinates;
         }
     }
 }
