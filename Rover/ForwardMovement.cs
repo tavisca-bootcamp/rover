@@ -19,6 +19,10 @@ namespace Rover
                 xCoordinate -= 1;
             if (roverMap.MapCompass.Needle == Direction.East)
                 xCoordinate += 1;
+            if (roverMap.MapCompass.Needle == Direction.NorthEast) { yCoordinate += 1; xCoordinate += 1; }
+            if (roverMap.MapCompass.Needle == Direction.SouthEast) { yCoordinate -= 1; xCoordinate += 1; }
+            if (roverMap.MapCompass.Needle == Direction.NorthWest) { yCoordinate += 1; xCoordinate -= 1; }
+            if (roverMap.MapCompass.Needle == Direction.SouthWest) { yCoordinate -= 1; xCoordinate -= 1; }
             if (roverMap.TotalArea.HasLocation(new Location(xCoordinate, yCoordinate)))
                 roverMap.CurrentLocation = new Location(xCoordinate, yCoordinate);
         }

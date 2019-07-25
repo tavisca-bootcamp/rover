@@ -8,9 +8,15 @@ namespace Rover
 {
     public enum Direction
     {
-        North='N',
-        South='S',
-        East='E',
-        West='W'
+        East=0,
+        NorthEast=45,
+        North=90,
+        NorthWest=135,
+        West=180,
+        SouthWest=225,
+        South=270,
+        SouthEast=315,
+        OtherEast=360,
+        otherSouthEast=-45
     }
 }

@@ -10,14 +10,9 @@ namespace Rover
     {
         void IMovement.Update(Map roverMap)
         {
-            if (roverMap.MapCompass.Needle == Direction.North)
-                roverMap.MapCompass.Needle = Direction.West;
-            else if (roverMap.MapCompass.Needle == Direction.South)
+            roverMap.MapCompass.Needle= (roverMap.MapCompass.Needle+45);
+            if (roverMap.MapCompass.Needle==Direction.OtherEast)
                 roverMap.MapCompass.Needle = Direction.East;
-            else if (roverMap.MapCompass.Needle == Direction.West)
-                roverMap.MapCompass.Needle = Direction.South;
-            else
-                roverMap.MapCompass.Needle = Direction.North;
         }
     }
 }
