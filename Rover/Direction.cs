@@ -8,9 +8,9 @@ namespace Rover
 {
     public enum Direction
     {
-        North,
-        South,
-        East,
-        West
+        North='N',
+        South='S',
+        East='E',
+        West='W'
     }
 }
