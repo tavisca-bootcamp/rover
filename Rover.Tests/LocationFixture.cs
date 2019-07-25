@@ -12,6 +12,12 @@ namespace Rover.Tests
             location.XCoordinate.Should().Be(2);
             location.YCoordinate.Should().Be(5);
         }
+        [Fact]
+        public void Every_Location_Must_Return_Its_Status()
+        {
+            var location = new Location(1, 2);
+            location.GetStatus().Should().Be("1 2");
+        }
 
     }
 }

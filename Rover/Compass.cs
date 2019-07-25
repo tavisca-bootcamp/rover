@@ -27,5 +27,18 @@ namespace Rover
                 break;
             }
         }
+        public string GetStatus()
+        {
+            String status = String.Empty;
+            if (Needle == Direction.North)
+                status = "N";
+            if (Needle == Direction.South)
+                status = "S";
+            if (Needle == Direction.East)
+                status = "E";
+            if (Needle == Direction.West)
+                status = "W";
+            return status;
+        }
     }
 }

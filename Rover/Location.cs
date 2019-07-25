@@ -14,6 +14,10 @@ namespace Rover
             XCoordinate = xCoordinate;
             YCoordinate = yCoordinate;
         }
+        public string GetStatus()
+        {
+            return XCoordinate + " " + YCoordinate;
+        }
     }
 }
 

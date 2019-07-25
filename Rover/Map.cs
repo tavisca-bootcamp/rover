@@ -9,12 +9,20 @@ namespace Rover
     {
         public Location CurrentLocation { get; set; }
         public SurfaceArea TotalArea { get; set; }
-        public Compass compass { get; set; }
-        public Map(Location currentLocation, SurfaceArea totalArea)
+        public Compass MapCompass { get; set; }
+        public Map(Location currentLocation, SurfaceArea totalArea,Compass mapCompass)
         {
             CurrentLocation = currentLocation;
             TotalArea = totalArea;
+            MapCompass = mapCompass;
         }
+        public String GetStatus()
+        {
+            string status=String.Empty;
+            status = status + CurrentLocation.GetStatus()+" "+MapCompass.GetStatus();
+            return status;
+        }
+
     }
 }
 
