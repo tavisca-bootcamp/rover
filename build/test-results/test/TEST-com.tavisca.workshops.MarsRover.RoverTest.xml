@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tavisca.workshops.MarsRover.RoverTest" tests="2" skipped="1" failures="0" errors="0" timestamp="2019-07-27T18:46:39" hostname="RENTLAPT0010" time="45.004">
+  <properties/>
+  <testcase name="roverCanBeInitializedWithGivenPosition()" classname="com.tavisca.workshops.MarsRover.RoverTest" time="0.077"/>
+  <testcase name="roverCanRotateLeftFromNorthDirection()" classname="com.tavisca.workshops.MarsRover.RoverTest" time="44.925">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
