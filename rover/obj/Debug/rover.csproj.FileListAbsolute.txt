@@ -1,0 +1,7 @@
+C:\Users\asisodiya\source\repos\rover\rover\bin\Debug\rover.exe.config
+C:\Users\asisodiya\source\repos\rover\rover\bin\Debug\rover.exe
+C:\Users\asisodiya\source\repos\rover\rover\bin\Debug\rover.pdb
+C:\Users\asisodiya\source\repos\rover\rover\obj\Debug\rover.csprojAssemblyReference.cache
+C:\Users\asisodiya\source\repos\rover\rover\obj\Debug\rover.csproj.CoreCompileInputs.cache
+C:\Users\asisodiya\source\repos\rover\rover\obj\Debug\rover.exe
+C:\Users\asisodiya\source\repos\rover\rover\obj\Debug\rover.pdb
